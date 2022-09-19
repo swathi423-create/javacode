@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\clientmanagementangular\\ClientProject"
+		},
+		{
+			"path": "..\\git\\E-Learning-Project2\\elearning-frontend-project2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ClientProject"
+	}
+}
