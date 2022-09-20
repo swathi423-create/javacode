@@ -23,7 +23,7 @@ export class RegisterComponent implements OnInit {
 
   addClient(data:any) {
     this.clientService.addClient(data).subscribe(res => {
-      if (res != null) this.router.navigate(['/index']);
+      if (res != null) this.router.navigate(['/login']);
     });
   }
 }

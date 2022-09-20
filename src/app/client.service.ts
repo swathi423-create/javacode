@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 export class ClientService {
   private httpClient: HttpClient;
   private readonly baseUrl =
-    'https://clientproject-application-mangaement.com/';
+    '/';
   headers = new HttpHeaders().append('Content-Type', 'application/json');
   constructor(httpClient: HttpClient) {
     this.httpClient = httpClient;
